@@ -1,2 +1,2 @@
 FROM alpine
-CMD ["echo", "Hello StackOverflow!"]
+sh ["echo", "Hello StackOverflow!"]
