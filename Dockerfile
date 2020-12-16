@@ -1,2 +1,3 @@
-FROM alpine
-sh ["echo", "Hello StackOverflow!"]
+FROM python:3
+ADD Hello.py /
+CMD [ "python", "./Hello.py" ]
